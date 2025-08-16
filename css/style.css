@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+:root {
+    --small-user-avatar-width: 40px;
+    --small-user-avatar-height: 40px;
+}
+
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     display: grid;
@@ -61,5 +66,93 @@ aside .options-parent section a {
     margin-bottom: var(--option-margin-bottom);
 }
 
+header {
+    height: 25%;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header .frame-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+header .frame-1 .search {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header .frame-1 .search .search-bar {
+    width: 700px;
+    height: 30px;
+    background-color: hsl(214.29deg 31.82% 91.37%);
+    border-radius: 50px;
+}
+
+header .frame-1 .user-data {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
+header .frame-1 .user-data img {
+    width: var(--small-user-avatar-width);
+    height: var(--small-user-avatar-height);
+}
+
+header .frame-1 .user-data i {
+    color: black;
+}
+
+header .frame-2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+header .frame-2 .user-credentials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .frame-2 .user-credentials img {
+    width: 60px;
+    height: 60px;
+}
+
+header .frame-2 .user-credentials .hi {
+    font-size: 15px;
+}
+
+header .frame-2 .user-credentials .user-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header .frame-2 .actions button {
+    background-color: hsl(201.18deg 78.9% 46.47%);
+    color: white;
+    width: 90px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+}
+
+header .frame-2 .actions {
+    display: flex;
+    gap: 25px;
+}
