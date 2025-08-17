@@ -1,5 +1,5 @@
 # Admin-Dashboard
-This is an Admin Dashboard built with pure HTML and CSS. R
+This is an Admin Dashboard built with pure HTML and CSS.
 
 Responsive on large and medium screens.
 
